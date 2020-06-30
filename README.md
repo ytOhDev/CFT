@@ -1,0 +1,3 @@
+# CFT
+
+Crossfit timer app
