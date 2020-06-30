@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF39E2412269BA34006CDF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39E2402269BA34006CDF13 /* AppDelegate.swift */; };
+		CF39E2432269BA34006CDF13 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39E2422269BA34006CDF13 /* MainController.swift */; };
+		CF39E2462269BA34006CDF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF39E2442269BA34006CDF13 /* Main.storyboard */; };
+		CF39E2482269BA34006CDF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF39E2472269BA34006CDF13 /* Assets.xcassets */; };
+		CF39E24B2269BA34006CDF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF39E2492269BA34006CDF13 /* LaunchScreen.storyboard */; };
+		CF39E2562269BB28006CDF13 /* DualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39E2552269BB28006CDF13 /* DualViewController.swift */; };
+		CF644FD024AB05A1003E85CF /* SF Sports Night NS Alternate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FC824AB05A0003E85CF /* SF Sports Night NS Alternate.ttf */; };
+		CF644FD124AB05A1003E85CF /* SF Sports Night NS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FC924AB05A0003E85CF /* SF Sports Night NS.ttf */; };
+		CF644FD224AB05A1003E85CF /* SF Sports Night AltUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCA24AB05A0003E85CF /* SF Sports Night AltUpright.ttf */; };
+		CF644FD324AB05A1003E85CF /* SF Sports Night.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCB24AB05A1003E85CF /* SF Sports Night.ttf */; };
+		CF644FD424AB05A1003E85CF /* SF Sports Night Upright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCC24AB05A1003E85CF /* SF Sports Night Upright.ttf */; };
+		CF644FD524AB05A1003E85CF /* SF Sports Night NS AltUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCD24AB05A1003E85CF /* SF Sports Night NS AltUpright.ttf */; };
+		CF644FD624AB05A1003E85CF /* SF Sports Night NS Upright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCE24AB05A1003E85CF /* SF Sports Night NS Upright.ttf */; };
+		CF644FD724AB05A1003E85CF /* SF Sports Night Alternate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF644FCF24AB05A1003E85CF /* SF Sports Night Alternate.ttf */; };
+		CF644FDC24AB05AC003E85CF /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CF644FD824AB05AC003E85CF /* DS-DIGI.TTF */; };
+		CF644FDD24AB05AC003E85CF /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CF644FD924AB05AC003E85CF /* DS-DIGII.TTF */; };
+		CF644FDE24AB05AC003E85CF /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CF644FDA24AB05AC003E85CF /* DS-DIGIB.TTF */; };
+		CF644FDF24AB05AC003E85CF /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CF644FDB24AB05AC003E85CF /* DS-DIGIT.TTF */; };
+		CF644FE324AB064B003E85CF /* beepSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF644FE024AB064B003E85CF /* beepSound.mp3 */; };
+		CF644FE424AB064B003E85CF /* Pitch-10_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF644FE124AB064B003E85CF /* Pitch-10_1.mp3 */; };
+		CF644FE524AB064B003E85CF /* Pitch-10_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF644FE224AB064B003E85CF /* Pitch-10_2.mp3 */; };
+		CFCD956B226FE4FE00688925 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD956A226FE4FE00688925 /* Status.swift */; };
+		CFCD9571226FEC2900688925 /* EMOMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD9570226FEC2900688925 /* EMOMTableViewCell.swift */; };
+		CFCD95732270536E00688925 /* ForTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD95722270536E00688925 /* ForTimeTableViewCell.swift */; };
+		CFE039452271396300F94C78 /* TabataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE039442271396300F94C78 /* TabataTableViewCell.swift */; };
+		CFE039482271461D00F94C78 /* StartTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE039472271461D00F94C78 /* StartTimeViewController.swift */; };
+		CFE04733226ED375006BE7BD /* ForTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE04732226ED375006BE7BD /* ForTimeViewController.swift */; };
+		CFE04735226ED382006BE7BD /* EMOMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE04734226ED382006BE7BD /* EMOMViewController.swift */; };
+		CFE04738226F0BD8006BE7BD /* TabataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE04737226F0BD8006BE7BD /* TabataViewController.swift */; };
+		CFE58FD32383CB7700C938F8 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE58FD22383CB7700C938F8 /* OptionViewController.swift */; };
+		CFE58FD62383D7C500C938F8 /* OptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE58FD52383D7C500C938F8 /* OptionTableViewController.swift */; };
+		CFE7DEEA237E33BD005ED0B7 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7DEE9237E33BD005ED0B7 /* SweetAlert.swift */; };
+		CFEBE70C24989BA800C2F936 /* Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE70B24989BA800C2F936 /* Extenstion.swift */; };
+		E167AC324FC89099A09D9A33 /* Pods_FittersTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C7F82356C9BD79BAB5300E /* Pods_FittersTimer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69EB8EFFB863F6DB5C885A20 /* Pods-FittersTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FittersTimer.debug.xcconfig"; path = "Target Support Files/Pods-FittersTimer/Pods-FittersTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C7F82356C9BD79BAB5300E /* Pods_FittersTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FittersTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF39E23D2269BA34006CDF13 /* FittersTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FittersTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF39E2402269BA34006CDF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF39E2422269BA34006CDF13 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CF39E2452269BA34006CDF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF39E2472269BA34006CDF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF39E24A2269BA34006CDF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF39E24C2269BA34006CDF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF39E2552269BB28006CDF13 /* DualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualViewController.swift; sourceTree = "<group>"; };
+		CF644FC824AB05A0003E85CF /* SF Sports Night NS Alternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night NS Alternate.ttf"; sourceTree = "<group>"; };
+		CF644FC924AB05A0003E85CF /* SF Sports Night NS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night NS.ttf"; sourceTree = "<group>"; };
+		CF644FCA24AB05A0003E85CF /* SF Sports Night AltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night AltUpright.ttf"; sourceTree = "<group>"; };
+		CF644FCB24AB05A1003E85CF /* SF Sports Night.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night.ttf"; sourceTree = "<group>"; };
+		CF644FCC24AB05A1003E85CF /* SF Sports Night Upright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night Upright.ttf"; sourceTree = "<group>"; };
+		CF644FCD24AB05A1003E85CF /* SF Sports Night NS AltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night NS AltUpright.ttf"; sourceTree = "<group>"; };
+		CF644FCE24AB05A1003E85CF /* SF Sports Night NS Upright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night NS Upright.ttf"; sourceTree = "<group>"; };
+		CF644FCF24AB05A1003E85CF /* SF Sports Night Alternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Sports Night Alternate.ttf"; sourceTree = "<group>"; };
+		CF644FD824AB05AC003E85CF /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		CF644FD924AB05AC003E85CF /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
+		CF644FDA24AB05AC003E85CF /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		CF644FDB24AB05AC003E85CF /* DS-DIGIT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIT.TTF"; sourceTree = "<group>"; };
+		CF644FE024AB064B003E85CF /* beepSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beepSound.mp3; sourceTree = "<group>"; };
+		CF644FE124AB064B003E85CF /* Pitch-10_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pitch-10_1.mp3"; sourceTree = "<group>"; };
+		CF644FE224AB064B003E85CF /* Pitch-10_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pitch-10_2.mp3"; sourceTree = "<group>"; };
+		CFCD956A226FE4FE00688925 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		CFCD9570226FEC2900688925 /* EMOMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMOMTableViewCell.swift; sourceTree = "<group>"; };
+		CFCD95722270536E00688925 /* ForTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTimeTableViewCell.swift; sourceTree = "<group>"; };
+		CFE039442271396300F94C78 /* TabataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTableViewCell.swift; sourceTree = "<group>"; };
+		CFE039472271461D00F94C78 /* StartTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimeViewController.swift; sourceTree = "<group>"; };
+		CFE04732226ED375006BE7BD /* ForTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTimeViewController.swift; sourceTree = "<group>"; };
+		CFE04734226ED382006BE7BD /* EMOMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMOMViewController.swift; sourceTree = "<group>"; };
+		CFE04737226F0BD8006BE7BD /* TabataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataViewController.swift; sourceTree = "<group>"; };
+		CFE58FD22383CB7700C938F8 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		CFE58FD52383D7C500C938F8 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
+		CFE7DEE9237E33BD005ED0B7 /* SweetAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		CFEBE70B24989BA800C2F936 /* Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstion.swift; sourceTree = "<group>"; };
+		E97B907833CE9F8103F5D4D1 /* Pods-FittersTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FittersTimer.release.xcconfig"; path = "Target Support Files/Pods-FittersTimer/Pods-FittersTimer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF39E23A2269BA34006CDF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E167AC324FC89099A09D9A33 /* Pods_FittersTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF15886E23866CA800AEBC49 /* Beep */ = {
+			isa = PBXGroup;
+			children = (
+				CF644FE024AB064B003E85CF /* beepSound.mp3 */,
+				CF644FE124AB064B003E85CF /* Pitch-10_1.mp3 */,
+				CF644FE224AB064B003E85CF /* Pitch-10_2.mp3 */,
+			);
+			path = Beep;
+			sourceTree = "<group>";
+		};
+		CF39E2342269BA34006CDF13 = {
+			isa = PBXGroup;
+			children = (
+				CF39E23F2269BA34006CDF13 /* FittersTimer */,
+				CF39E23E2269BA34006CDF13 /* Products */,
+				DD69A3EF21AF5AE5A8B0A359 /* Pods */,
+				E7520F2A26584F0BBCDF5F73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF39E23E2269BA34006CDF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E23D2269BA34006CDF13 /* FittersTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF39E23F2269BA34006CDF13 /* FittersTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CF15886E23866CA800AEBC49 /* Beep */,
+				CFDE99972384DBA600CFD09C /* Font */,
+				CFE7DEE8237E33A9005ED0B7 /* Library */,
+				CFCD9569226FE4F500688925 /* Util */,
+				CFE04736226EE6BE006BE7BD /* TimerViewController */,
+				CF39E2522269BB11006CDF13 /* ViewController */,
+				CF39E2402269BA34006CDF13 /* AppDelegate.swift */,
+				CF39E2422269BA34006CDF13 /* MainController.swift */,
+				CF39E2442269BA34006CDF13 /* Main.storyboard */,
+				CF39E2472269BA34006CDF13 /* Assets.xcassets */,
+				CF39E2492269BA34006CDF13 /* LaunchScreen.storyboard */,
+				CF39E24C2269BA34006CDF13 /* Info.plist */,
+			);
+			path = FittersTimer;
+			sourceTree = "<group>";
+		};
+		CF39E2522269BB11006CDF13 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFE58FD42383CB7B00C938F8 /* Option */,
+				CFE039462271460600F94C78 /* StartTime */,
+				CFCD956F226FEBFC00688925 /* EMOM */,
+				CFCD956E226FEBF700688925 /* ForTime */,
+				CFCD956D226FEBF100688925 /* Tabata */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CFCD9569226FE4F500688925 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD956A226FE4FE00688925 /* Status.swift */,
+				CFEBE70B24989BA800C2F936 /* Extenstion.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CFCD956D226FEBF100688925 /* Tabata */ = {
+			isa = PBXGroup;
+			children = (
+				CFE04737226F0BD8006BE7BD /* TabataViewController.swift */,
+				CFE039442271396300F94C78 /* TabataTableViewCell.swift */,
+			);
+			path = Tabata;
+			sourceTree = "<group>";
+		};
+		CFCD956E226FEBF700688925 /* ForTime */ = {
+			isa = PBXGroup;
+			children = (
+				CFE04732226ED375006BE7BD /* ForTimeViewController.swift */,
+				CFCD95722270536E00688925 /* ForTimeTableViewCell.swift */,
+			);
+			path = ForTime;
+			sourceTree = "<group>";
+		};
+		CFCD956F226FEBFC00688925 /* EMOM */ = {
+			isa = PBXGroup;
+			children = (
+				CFE04734226ED382006BE7BD /* EMOMViewController.swift */,
+				CFCD9570226FEC2900688925 /* EMOMTableViewCell.swift */,
+			);
+			path = EMOM;
+			sourceTree = "<group>";
+		};
+		CFDE99972384DBA600CFD09C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE99992384DC8200CFD09C /* Sport_Night */,
+				CFDE99982384DC6B00CFD09C /* DS_Digital */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CFDE99982384DC6B00CFD09C /* DS_Digital */ = {
+			isa = PBXGroup;
+			children = (
+				CF644FD824AB05AC003E85CF /* DS-DIGI.TTF */,
+				CF644FDA24AB05AC003E85CF /* DS-DIGIB.TTF */,
+				CF644FD924AB05AC003E85CF /* DS-DIGII.TTF */,
+				CF644FDB24AB05AC003E85CF /* DS-DIGIT.TTF */,
+			);
+			path = DS_Digital;
+			sourceTree = "<group>";
+		};
+		CFDE99992384DC8200CFD09C /* Sport_Night */ = {
+			isa = PBXGroup;
+			children = (
+				CF644FCF24AB05A1003E85CF /* SF Sports Night Alternate.ttf */,
+				CF644FCA24AB05A0003E85CF /* SF Sports Night AltUpright.ttf */,
+				CF644FC824AB05A0003E85CF /* SF Sports Night NS Alternate.ttf */,
+				CF644FCD24AB05A1003E85CF /* SF Sports Night NS AltUpright.ttf */,
+				CF644FCE24AB05A1003E85CF /* SF Sports Night NS Upright.ttf */,
+				CF644FC924AB05A0003E85CF /* SF Sports Night NS.ttf */,
+				CF644FCC24AB05A1003E85CF /* SF Sports Night Upright.ttf */,
+				CF644FCB24AB05A1003E85CF /* SF Sports Night.ttf */,
+			);
+			path = Sport_Night;
+			sourceTree = "<group>";
+		};
+		CFE039462271460600F94C78 /* StartTime */ = {
+			isa = PBXGroup;
+			children = (
+				CFE039472271461D00F94C78 /* StartTimeViewController.swift */,
+			);
+			path = StartTime;
+			sourceTree = "<group>";
+		};
+		CFE04736226EE6BE006BE7BD /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF39E2552269BB28006CDF13 /* DualViewController.swift */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+		CFE58FD42383CB7B00C938F8 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				CFE58FD22383CB7700C938F8 /* OptionViewController.swift */,
+				CFE58FD52383D7C500C938F8 /* OptionTableViewController.swift */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		CFE7DEE8237E33A9005ED0B7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CFE7DEE9237E33BD005ED0B7 /* SweetAlert.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DD69A3EF21AF5AE5A8B0A359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69EB8EFFB863F6DB5C885A20 /* Pods-FittersTimer.debug.xcconfig */,
+				E97B907833CE9F8103F5D4D1 /* Pods-FittersTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7520F2A26584F0BBCDF5F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C7F82356C9BD79BAB5300E /* Pods_FittersTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF39E23C2269BA34006CDF13 /* FittersTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF39E24F2269BA34006CDF13 /* Build configuration list for PBXNativeTarget "FittersTimer" */;
+			buildPhases = (
+				4D15B3A10A47D8BE59F3A46A /* [CP] Check Pods Manifest.lock */,
+				CF39E2392269BA34006CDF13 /* Sources */,
+				CF39E23A2269BA34006CDF13 /* Frameworks */,
+				CF39E23B2269BA34006CDF13 /* Resources */,
+				4D08B392B897539FC05B1401 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FittersTimer;
+			productName = FittersTimer;
+			productReference = CF39E23D2269BA34006CDF13 /* FittersTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF39E2352269BA34006CDF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Taek;
+				TargetAttributes = {
+					CF39E23C2269BA34006CDF13 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CF39E2382269BA34006CDF13 /* Build configuration list for PBXProject "FittersTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF39E2342269BA34006CDF13;
+			productRefGroup = CF39E23E2269BA34006CDF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF39E23C2269BA34006CDF13 /* FittersTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF39E23B2269BA34006CDF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF644FE324AB064B003E85CF /* beepSound.mp3 in Resources */,
+				CF644FD524AB05A1003E85CF /* SF Sports Night NS AltUpright.ttf in Resources */,
+				CF644FDF24AB05AC003E85CF /* DS-DIGIT.TTF in Resources */,
+				CF644FD724AB05A1003E85CF /* SF Sports Night Alternate.ttf in Resources */,
+				CF644FDD24AB05AC003E85CF /* DS-DIGII.TTF in Resources */,
+				CF644FDE24AB05AC003E85CF /* DS-DIGIB.TTF in Resources */,
+				CF644FD124AB05A1003E85CF /* SF Sports Night NS.ttf in Resources */,
+				CF644FD224AB05A1003E85CF /* SF Sports Night AltUpright.ttf in Resources */,
+				CF39E24B2269BA34006CDF13 /* LaunchScreen.storyboard in Resources */,
+				CF644FD024AB05A1003E85CF /* SF Sports Night NS Alternate.ttf in Resources */,
+				CF39E2482269BA34006CDF13 /* Assets.xcassets in Resources */,
+				CF644FDC24AB05AC003E85CF /* DS-DIGI.TTF in Resources */,
+				CF644FD424AB05A1003E85CF /* SF Sports Night Upright.ttf in Resources */,
+				CF644FE524AB064B003E85CF /* Pitch-10_2.mp3 in Resources */,
+				CF644FE424AB064B003E85CF /* Pitch-10_1.mp3 in Resources */,
+				CF644FD324AB05A1003E85CF /* SF Sports Night.ttf in Resources */,
+				CF39E2462269BA34006CDF13 /* Main.storyboard in Resources */,
+				CF644FD624AB05A1003E85CF /* SF Sports Night NS Upright.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D08B392B897539FC05B1401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FittersTimer/Pods-FittersTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FittersTimer/Pods-FittersTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D15B3A10A47D8BE59F3A46A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FittersTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF39E2392269BA34006CDF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE04738226F0BD8006BE7BD /* TabataViewController.swift in Sources */,
+				CFCD956B226FE4FE00688925 /* Status.swift in Sources */,
+				CFCD95732270536E00688925 /* ForTimeTableViewCell.swift in Sources */,
+				CFE7DEEA237E33BD005ED0B7 /* SweetAlert.swift in Sources */,
+				CFE039452271396300F94C78 /* TabataTableViewCell.swift in Sources */,
+				CF39E2432269BA34006CDF13 /* MainController.swift in Sources */,
+				CFE04735226ED382006BE7BD /* EMOMViewController.swift in Sources */,
+				CF39E2412269BA34006CDF13 /* AppDelegate.swift in Sources */,
+				CFE039482271461D00F94C78 /* StartTimeViewController.swift in Sources */,
+				CFE58FD62383D7C500C938F8 /* OptionTableViewController.swift in Sources */,
+				CF39E2562269BB28006CDF13 /* DualViewController.swift in Sources */,
+				CFE58FD32383CB7700C938F8 /* OptionViewController.swift in Sources */,
+				CFEBE70C24989BA800C2F936 /* Extenstion.swift in Sources */,
+				CFCD9571226FEC2900688925 /* EMOMTableViewCell.swift in Sources */,
+				CFE04733226ED375006BE7BD /* ForTimeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF39E2442269BA34006CDF13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF39E2452269BA34006CDF13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF39E2492269BA34006CDF13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF39E24A2269BA34006CDF13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF39E24D2269BA34006CDF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CF39E24E2269BA34006CDF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF39E2502269BA34006CDF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EB8EFFB863F6DB5C885A20 /* Pods-FittersTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.5;
+				DEVELOPMENT_TEAM = W5B95PCRGW;
+				INFOPLIST_FILE = FittersTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = taek.FittersTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF39E2512269BA34006CDF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B907833CE9F8103F5D4D1 /* Pods-FittersTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.5;
+				DEVELOPMENT_TEAM = W5B95PCRGW;
+				INFOPLIST_FILE = FittersTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = taek.FittersTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF39E2382269BA34006CDF13 /* Build configuration list for PBXProject "FittersTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39E24D2269BA34006CDF13 /* Debug */,
+				CF39E24E2269BA34006CDF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF39E24F2269BA34006CDF13 /* Build configuration list for PBXNativeTarget "FittersTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF39E2502269BA34006CDF13 /* Debug */,
+				CF39E2512269BA34006CDF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF39E2352269BA34006CDF13 /* Project object */;
+}
